@@ -1,0 +1,23 @@
+1. Program Goal:
+The goal of this program is to create a news mobile app that allows users to read news articles in their preferred language, with the ability to summarize the article, listen to the article via text-to-speech, and scroll through an infinite number of articles. The app should also allow users to filter articles by topic and view trending news.
+
+2. Core Classes and Functions:
+a. NewsArticle - This class will hold all the information related to a news article, including the title, author, content, and topic.
+b. NewsFeed - This class will be responsible for fetching and storing news articles from various sources. It will have methods to filter articles by topic and retrieve trending news.
+c. TextSummarizer - This class will take in a news article and return a summarized version of the article.
+d. TextToSpeech - This class will take in a news article and read it aloud to the user.
+e. LanguageTranslator - This class will take in a news article and translate it to the user's preferred language.
+
+3. Non-Standard Dependencies:
+a. Flutter - This is the framework that will be used to build the mobile app.
+b. News API - This is the API that will be used to fetch news articles.
+c. Google Translate API - This is the API that will be used to translate news articles.
+d. Text-to-Speech API - This is the API that will be used to read news articles aloud.
+
+4. Features:
+a. Text Summarizer - Users can choose to view a summarized version of the news article.
+b. Text-to-Speech - Users can choose to listen to the news article via text-to-speech.
+c. Infinite Scroll - Users can scroll through an infinite number of news articles.
+d. Language Translation - Users can choose their preferred language and have news articles translated to that language.
+e. Topic Separation - Users can filter news articles by topic.
+f. Trending News - Users can view a section dedicated to trending news.

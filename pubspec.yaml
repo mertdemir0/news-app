@@ -1,0 +1,14 @@
+name: news_app
+description: A news mobile app with text summarizer, text-to-speech, infinite scroll, language translation, topic separation, and trending news features.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
